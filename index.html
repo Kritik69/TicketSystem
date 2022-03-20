@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotX Ticket Machine</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+</head>
+<body>
+    <div class="inputs">
+        <input type="text" class="input" id="tbuser" placeholder="Name">
+        <input type="text" class="input" id="tbuserage" placeholder="Age">
+        <input type="text" class="input" id="tbuserlocation" placeholder="Location">
+        <input type="text" class="input" id="tbuserdate" placeholder="Date">
+        <input type="file" id="image_input" class="input-img" accept="image/png" />
+        <input type="button" id="btn1" value="Enter">
+        <!-- <input type="button" onclick="generatePDF2()" id="btn2" value="Enter"> -->
+    </div>
+    <!-- PDF SECTION -->
+    <div id="wholeOutput">
+        <div class="img-div" id="display_image"></div>
+        <div class="outputs-text">
+            <div class="output" id="output1"></div>
+            <div class="output" id="output2"></div>
+            <div class="output" id="output3"></div>
+            <div class="output" id="output4"></div>
+        </div>
+    </div>
+    <a href="javascript:generatePDF()" id="cmd">create PDF</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

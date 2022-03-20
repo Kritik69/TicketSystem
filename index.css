@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+}
+.output {
+    color: white;
+    width: 560px;
+    height: 62.5px;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-items: space-around;
+    border: 5px solid black;
+    align-items: center;
+    margin: 5px;
+}
+.input {
+    width: fit-content;
+    margin: 5px;
+    border: 1px solid black;
+    padding-left: 1rem;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-size: larger;
+}
+.input-img {
+    width: fit-content;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-size: larger;
+}
+#wholeOutput {
+    background-color: black;
+    color: white;
+    width: 790px;
+    height: 240px;
+    border: 5px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url("texturedBg.jpg"); */
+}
+/* .img-div {
+    width: 240px;
+    height: 240px;
+} */
+#display_image {
+    width: 240px;
+    height: 240px;
+    background-position: center;
+    background-size: cover;
+}
+.cmd {
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+#btn1 {
+    width: 5rem;
+    height: 2rem;
+    background-color: black;
+    color: #d88771;
+    border-radius: 5px;
+}
